@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+.font-1 {
+    font-family: "Jost", sans-serif;
+}
+
+.font-2 {
+    font-family: "Rubik", sans-serif;
+}
+
+.font-3 {
+    font-family: "Catamaran", sans-serif;
+}
+
+
+.custom-shape-divider-top-1720448613 {
+    position: sticky;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1720448613 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1720448613 .shape-fill {
+    fill: #acbb99;
+}
+
+.custom-shape-divider-bottom-1720451850 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1720451850 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1720451850 .shape-fill {
+    fill: #acbb99;
+}
+
+
+.innovationImage {
+    background-image: url("https://swanhose.com/cdn/shop/articles/water-plant-growth.jpg?v=1683652693")
+}
+
+.custom-shape-divider-bottom-1720548302 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1720548302 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 115px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1720548302 .shape-fill {
+    fill: #FFFFFF;
+}
+.custom-shape-divider-top-1720548339 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1720548339 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 144px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1720548339 .shape-fill {
+    fill: #e8fccf;
+}
